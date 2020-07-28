@@ -123,7 +123,7 @@ public class HardActivity extends AppCompatActivity {
         contentList.add("If you look people in the eyes while speaking to them, drink one sip (5 rounds)"); //TODO: VIRUS
         contentList.add("Drink 3 times if your first time was not that good");
         contentList.add("If you ever had sex while you or your partner was on her period, drink 5 times");
-        contentList.add(personName + " has to speak with Chinese accent (5 rounds)");  //TODO : VIRUS
+        contentList.add(personName + " has to speak with Chinese accent (5 rounds)");  //TODO : VIRUS and to do something here
         contentList.add(personName + " drink as many sips as you poured. None ? Drink 3 times for the bartender");
         contentList.add("Girls, the first one to have had her period can give 4 sips");
         contentList.add("Spin the bottle baby! Each player has to spin the bottle and kiss the targeted player (5 sips for refusal). " + personName + " starts");
