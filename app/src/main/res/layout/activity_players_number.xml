@@ -21,7 +21,7 @@
         app:layout_constraintTop_toBottomOf="@+id/playersNumberEditText" />
 
 
-    <com.airbnb.lottie.LottieAnimationView
+   <!-- <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/enterPlayersAnimationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/enterPlayersDoneButton"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/orange_dot_pulse" />
+        app:lottie_rawRes="@raw/orange_dot_pulse" />-->
 
     <TextView
         android:id="@+id/playersNumberTextView"

@@ -140,6 +140,29 @@ public class HardActivity extends AppCompatActivity {
         contentList.add("'Typical places for fantasies'. " + personName + " , you start. (first to repeat or cannot find anything has to drink 2 times)");
         contentList.add(personName + ", ask a question to the room in large. The first person who tell you the answer can give out 3 sips, the rest drink one sip");
         contentList.add(personName + " go around the room and tap the back of the player who must take 2 sips");
+        contentList.add("The lovely person hosting this game gives out 2 sips");
+        contentList.add(personName + " if you manage to kiss a player anywhere without forcing them, this player will finish their drink. You have 5 minutes ");
+        contentList.add(personName + " has to pause 2 seconds between each spoken word. Drink once every time you forget to pause. (5 rounds)");
+        contentList.add("Girls, if you ever had vaginal orgasm drink 2 times");
+        contentList.add("Things to do when nobody is home. " + personName + " you start. (first to repeat or cannot find anything has to drink 2 times)");
+        contentList.add("Things to do before going out when you are single. " + personName + " you start. (first to repeat or cannot find anything has to drink 2 times)");
+        contentList.add("Players have ever dreamt about fighting someone drink 2 times");
+        contentList.add("The group has to choose a player. " + personName + ", kiss the chosen player on the neck or drink 4 times (be sensual)");
+        contentList.add("Smokers who have ever tried to stop smoking but failed, drink 3 times");
+        contentList.add("The last person to have performed passionate cunnilingus, gives out 4 sips");
+        contentList.add("If you ever thought of someone else during sex, drink 3 times");
+        contentList.add("Drink 5 times if you have ever been pulled over by the police");
+        contentList.add(personName + ", choose someone to cup your ass with their hands");
+        contentList.add("'Sexual practices other than penetration'. (first to repeat or cannot find anything has to drink 2 times). " + personName + " you start");
+        contentList.add("Give out 5 sips if you have ever masturbated at work");
+        contentList.add("New rule, each time someone talks, he/she has to begin the sentence with 'but sir,...'");
+        contentList.add("Male panties contest. Girls, you are the jury. Loser get 3 sips");
+        contentList.add("The group has to choose two players (male and female) who will finish their drinks and french kiss each other");
+        contentList.add("Kiss party. Go around the room and kiss the person to the right or drink 5 times." + personName + " you start");
+        contentList.add(personName + " you can give out as many sips as you have uncles");
+        contentList.add(personName + " and the player in front of him/her has to tell us a bedroom fantasy (it does not matter if it happened or not). The player with the most interesting one can give out 5 sips to any player");
+        contentList.add(personName + " you are a special player. You can rest your feet on the right player lap for 2 rounds and refuse to drink");
+        contentList.add("The clock tells you to drink. The first player has to drink the first number of the hour, the second, the second number and so on." + personName + " you start and then everything goes to the right.");
     }
 
 }

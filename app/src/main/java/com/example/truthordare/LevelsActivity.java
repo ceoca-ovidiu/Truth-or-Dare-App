@@ -15,6 +15,8 @@ public class LevelsActivity extends AppCompatActivity {
 
     private ArrayList<String> namesList = new ArrayList<>();
     private static final String TAG = "LevelsActivity";
+    private int playersNumber;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.d(TAG, "onCreate: in");
@@ -24,7 +26,7 @@ public class LevelsActivity extends AppCompatActivity {
         Button mediumButton = findViewById(R.id.mediumButton);
         Button hardButton = findViewById(R.id.hardButton);
         namesList = getIntent().getStringArrayListExtra("NAMES_LIST");
-
+        playersNumber = getIntent().getIntExtra("PLAYERS_NUMBER_FORWARD", 0);
         lowButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,7 +49,7 @@ public class LevelsActivity extends AppCompatActivity {
     }
 
 
-    public void openLowActivity(){
+    public void openLowActivity() {
         Vibrator vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
         vibrator.vibrate(50);
         Intent intent = new Intent(this, LowActivity.class);
@@ -55,7 +57,7 @@ public class LevelsActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openMediumActivity(){
+    public void openMediumActivity() {
         Vibrator vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
         vibrator.vibrate(50);
         Intent intent = new Intent(this, MediumActivity.class);
@@ -63,7 +65,7 @@ public class LevelsActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openHardActivity(){
+    public void openHardActivity() {
         Vibrator vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
         vibrator.vibrate(50);
         Intent intent = new Intent(this, HardActivity.class);
@@ -74,12 +76,9 @@ public class LevelsActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        startActivity(new Intent(this, EnterPlayersActivity.class));
+        Intent intent = new Intent(this, EnterPlayersActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        intent.putExtra("PLAYERS_NUMBER_BACK", playersNumber); //FIXME : players number e 2
+        startActivity(intent);
     }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-    }
-
 }

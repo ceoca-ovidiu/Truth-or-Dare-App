@@ -2,6 +2,7 @@ package com.example.truthordare;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.text.InputType;
@@ -11,7 +12,6 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class PlayersNumberActivity extends AppCompatActivity {
@@ -36,6 +36,12 @@ public class PlayersNumberActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate: out");
     }
 
+    private void savePlayersNumber(int numberOfPlayers){
+        SharedPreferences.Editor editor = getSharedPreferences("PREF_NUMBER_OF_PLAYERS", MODE_PRIVATE).edit();
+        editor.putInt("NUMBER_OF_PLAYERS", numberOfPlayers);
+        editor.apply();
+    }
+
     public void passPlayersNumber(){
         Log.d(TAG, "passPlayersNumber: in");
         Vibrator vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
@@ -50,6 +56,7 @@ public class PlayersNumberActivity extends AppCompatActivity {
                 vibrator.vibrate(50);
                 Intent intent = new Intent(PlayersNumberActivity.this, EnterPlayersActivity.class);
                 intent.putExtra("PLAYERS_NUMBER", playersNumber);
+                savePlayersNumber(playersNumber);
                 startActivity(intent);
             }
         }catch (Exception e){
@@ -57,7 +64,6 @@ public class PlayersNumberActivity extends AppCompatActivity {
             long[] pattern = {0, 50, 100, 50};
             vibrator.vibrate(pattern, -1);
         }
-
         Log.d(TAG, "passPlayersNumber: out");
     }
 
