@@ -27,6 +27,9 @@ public class LevelsActivity extends AppCompatActivity {
         Button hardButton = findViewById(R.id.hardButton);
         namesList = getIntent().getStringArrayListExtra("NAMES_LIST");
         playersNumber = getIntent().getIntExtra("PLAYERS_NUMBER_FORWARD", 0);
+        DialogFrame dialogFrame = new DialogFrame();
+        dialogFrame.show(getSupportFragmentManager(), "DIALOG");
+        dialogFrame.setCancelable(false);
         lowButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,6 +57,7 @@ public class LevelsActivity extends AppCompatActivity {
         vibrator.vibrate(50);
         Intent intent = new Intent(this, LowActivity.class);
         intent.putStringArrayListExtra("LOW_NAMES_LIST", namesList);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
         startActivity(intent);
     }
 
@@ -62,6 +66,7 @@ public class LevelsActivity extends AppCompatActivity {
         vibrator.vibrate(50);
         Intent intent = new Intent(this, MediumActivity.class);
         intent.putStringArrayListExtra("MEDIUM_NAMES_LIST", namesList);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
         startActivity(intent);
     }
 
@@ -70,6 +75,7 @@ public class LevelsActivity extends AppCompatActivity {
         vibrator.vibrate(50);
         Intent intent = new Intent(this, HardActivity.class);
         intent.putStringArrayListExtra("HARD_NAMES_LIST", namesList);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
         startActivity(intent);
     }
 
@@ -78,7 +84,8 @@ public class LevelsActivity extends AppCompatActivity {
         super.onBackPressed();
         Intent intent = new Intent(this, EnterPlayersActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        intent.putExtra("PLAYERS_NUMBER_BACK", playersNumber); //FIXME : players number e 2
+        intent.putExtra("PLAYERS_NUMBER_BACK", playersNumber);
+        intent.putExtra("VALIDATION", true);
         startActivity(intent);
     }
 }

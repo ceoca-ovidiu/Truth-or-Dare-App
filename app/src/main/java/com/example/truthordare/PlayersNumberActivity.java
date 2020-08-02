@@ -36,6 +36,8 @@ public class PlayersNumberActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate: out");
     }
 
+
+
     private void savePlayersNumber(int numberOfPlayers){
         SharedPreferences.Editor editor = getSharedPreferences("PREF_NUMBER_OF_PLAYERS", MODE_PRIVATE).edit();
         editor.putInt("NUMBER_OF_PLAYERS", numberOfPlayers);

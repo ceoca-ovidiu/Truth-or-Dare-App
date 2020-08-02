@@ -31,7 +31,9 @@ public class EndActivity extends AppCompatActivity {
     public void goHome(){
         Vibrator vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
         vibrator.vibrate(100);
-        Intent intent = new Intent(EndActivity.this, PlayersNumberActivity.class);
+        Intent intent = new Intent(EndActivity.this, EnterPlayersActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        intent.putExtra("VALIDATION", true);
         startActivity(intent);
     }
 

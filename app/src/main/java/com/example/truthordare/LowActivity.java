@@ -100,6 +100,8 @@ public class LowActivity extends AppCompatActivity {
         drawableIdList.add(this.getResources().getIdentifier("rounded_textview_blue", "drawable", this.getPackageName()));
         drawableIdList.add(this.getResources().getIdentifier("rounded_textview_yellow", "drawable", this.getPackageName()));
         drawableIdList.add(this.getResources().getIdentifier("rounded_textview_brick", "drawable", this.getPackageName()));
+        drawableIdList.add(this.getResources().getIdentifier("rounded_textview_brown", "drawable", this.getPackageName()));
+        drawableIdList.add(this.getResources().getIdentifier("rounded_textview_grey", "drawable", this.getPackageName()));
     }
 
     private void loadContentList(String personName){

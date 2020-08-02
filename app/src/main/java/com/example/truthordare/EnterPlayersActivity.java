@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -39,10 +40,11 @@ public class EnterPlayersActivity extends AppCompatActivity {
         Button doneButton = findViewById(R.id.enterPlayersDoneButton);
         secondLinearLayout = findViewById(R.id.secondLinearLayout);
         retrivePlayersNumber();
-        if(namesList.isEmpty()){
-            loadEditTexts(playersNumber, secondLinearLayout, editTextList);
+        if(getIntent().getBooleanExtra("VALIDATION",false)){
+            namesList = retriveNamesList();
+            loadCompletedEditTexts(playersNumber, secondLinearLayout, editTextList, namesList);
         }else{
-            loadCompletedEditTexts(playersNumber, secondLinearLayout, editTextList);
+            loadEditTexts(playersNumber, secondLinearLayout, editTextList);
         }
         doneButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,13 +55,13 @@ public class EnterPlayersActivity extends AppCompatActivity {
         Log.i(TAG, "onCreate: out");
     }
 
-    private void loadCompletedEditTexts(int numberOfPlayers, LinearLayout layout, ArrayList<EditText> editTextArrayList) {
+    private void loadCompletedEditTexts(int numberOfPlayers, LinearLayout layout, ArrayList<EditText> editTextArrayList, ArrayList<String> stringArrayList) { // number of players = 2  // editTextArrayList = 0
 
-        for (int i = 1; i <= numberOfPlayers; i++) {
+        for (int i = 0; i < numberOfPlayers; i++) {
             EditText editText = new EditText(EnterPlayersActivity.this);
             editText.setBackgroundColor(Color.parseColor("#22566b"));
             editText.setTextColor(Color.parseColor("#ffffff"));
-            editText.setText(namesList.get(i));
+            editText.setText(stringArrayList.get(i));
             layout.addView(editText);
             editTextArrayList.add(editText);
         }
@@ -70,11 +72,29 @@ public class EnterPlayersActivity extends AppCompatActivity {
         playersNumber = sharedPreferences.getInt("NUMBER_OF_PLAYERS", 0);
     }
 
-    private void saveNamesList(){
-        Set<String> namesSet = new HashSet<String>(Arrays.<String>asList(String.valueOf(namesList)));
+    private void saveNamesList(ArrayList<String> stringArrayList){
+        Set<String> namesSet = new HashSet<>();
+        for(String string : stringArrayList){
+            namesSet.add(string);
+        }
         SharedPreferences.Editor editor = getSharedPreferences("PREF_NAMES_SET", MODE_PRIVATE).edit();
         editor.putStringSet("NAMES_SET", namesSet);
         editor.apply();
+    }
+
+    private ArrayList<String> retriveNamesList(){
+        SharedPreferences sharedPreferences = getSharedPreferences("PREF_NAMES_SET",MODE_PRIVATE);
+        Set<String> stringSet = sharedPreferences.getStringSet("NAMES_SET",null);
+        if(stringSet == null){
+            Toast.makeText(this, "STRING SET IS NULL", Toast.LENGTH_LONG);
+            return null;
+        }else{
+            Toast.makeText(this, "STRING SET NOT NULL", Toast.LENGTH_LONG);
+            for(String string : stringSet){
+                namesList.add(string);
+            }
+            return namesList;
+        }
     }
 
     @Override
@@ -147,10 +167,11 @@ public class EnterPlayersActivity extends AppCompatActivity {
                     }
                 }
             }
+            closeKeyboard();
             vibrator.vibrate(50);
             Intent intent = new Intent(this, LevelsActivity.class);
             intent.putStringArrayListExtra("NAMES_LIST", namesList);
-            saveNamesList();
+            saveNamesList(namesList);
             startActivity(intent);
         }
     }
@@ -177,16 +198,14 @@ public class EnterPlayersActivity extends AppCompatActivity {
 
     private boolean verifyDuplicates(String inputString, @NonNull ArrayList<String> stringArrayList) {
 
-        if (stringArrayList.isEmpty()) {
-            return false;
-        } else {
+        if (!stringArrayList.isEmpty()) {
             for (String stringIterator : stringArrayList) {
                 if (inputString.equalsIgnoreCase(stringIterator)) {
                     return true;
                 }
             }
-            return false;
         }
+        return false;
     }
 
     @Override
