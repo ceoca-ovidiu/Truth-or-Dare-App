@@ -138,7 +138,14 @@ public class MediumActivity extends AppCompatActivity {
         contentList.add(personName + " smile for 1 minute straight. If you can't, drink 2 sips");
         contentList.add(personName + " go get the number of a stranger or drink 2 times");
         contentList.add("The last person to go to the bathroom, drink 4 times");
-
+        contentList.add("Things that turns on a person." + personName + " you start.(first to repeat or cannot find anything has to drink 2 times)");
+        contentList.add(personName + " compose a poem for the person to your right. If that person is not impressed you have to drink 3 times, otherwise give them out");
+        contentList.add(personName + " do the worm. In case of refusal you have to drink 2 times");
+        contentList.add(personName + " let the person in front of you to give you a new hairstyle. 2 sips for refusal");
+        contentList.add(personName + " take a shower with your clothes on. 3 sips in case of refusal");
+        contentList.add(personName + " blindfold yourself. You have to eat or at least chew the thing we give you to complete the dare. If you guess that thing you can give out 4 sips otherwise drink them. (no hands allowed, just your mouth)");
+        contentList.add(personName + " juggle with  at least 2 eggs for 30 seconds. You can give one sip per egg, but if one breaks you have to drink them");
+        contentList.add("Hot potato. Each player says a word and then pass the egg to a random player.The person who breaks the egg has to drink 4 times and the sentence must have a logic.I know, I know it is not a potato but let's make things funnier");
     }
 
 }

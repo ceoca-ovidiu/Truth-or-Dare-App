@@ -4,6 +4,8 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,6 +18,9 @@ public class DialogFrame extends AppCompatDialogFragment {
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+       /* LayoutInflater layoutInflater = getActivity().getLayoutInflater();
+        View view = layoutInflater.inflate(R.layout.activity_dialog, null);
+        builder.setView(view);*/
         builder.setTitle("WARNING !!!");
         builder.setMessage("BEFORE GOING ANY FURTHER, ONE SHOT FOR EACH PLAYER TO WARM THINGS UP");
         builder.setPositiveButton("LET'S DO THIS", new DialogInterface.OnClickListener() {
@@ -24,7 +29,6 @@ public class DialogFrame extends AppCompatDialogFragment {
 
             }
         });
-
      return builder.create();
     }
 }
