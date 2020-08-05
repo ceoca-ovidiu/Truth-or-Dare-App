@@ -66,7 +66,7 @@ public class MediumActivity extends AppCompatActivity {
     }
 
     private void nextContentDisplay(){
-        if(contentCounter < 10){
+        if(contentCounter < 30){
             loadContentList(getRandomPerson(namesList));
             textView.setBackgroundResource(getRandomDrawableFile(drawableIdList));
             textView.setText(getRandomContent(contentList));
@@ -146,6 +146,56 @@ public class MediumActivity extends AppCompatActivity {
         contentList.add(personName + " blindfold yourself. You have to eat or at least chew the thing we give you to complete the dare. If you guess that thing you can give out 4 sips otherwise drink them. (no hands allowed, just your mouth)");
         contentList.add(personName + " juggle with  at least 2 eggs for 30 seconds. You can give one sip per egg, but if one breaks you have to drink them");
         contentList.add("Hot potato. Each player says a word and then pass the egg to a random player.The person who breaks the egg has to drink 4 times and the sentence must have a logic.I know, I know it is not a potato but let's make things funnier");
-    }
+        contentList.add("Have you ever farted and lied about it? Drink 2 times");
+        contentList.add("Drink as many sips as persons you kissed in your entire life. Not a single person ? Give out 4 sips you little motherf**ker");
+        contentList.add("What illegal thing have you done recently? Everyone tell their story and the most impressive gives out 5 sips.");
+        contentList.add("What’s the dumbest thing you did to impress someone? The most impressive story gives out 5 sips");
+        contentList.add("From now on, each player must keep a hand on their glass no matter what");
+        contentList.add("Let's take a break, one glass of water for everyone (if you want of course)");
+        contentList.add(personName + " lick any kind of spread off the person in front of you cheek.");
+        contentList.add(personName + " let the person on your right spank you as hard as they want to, on your butt. 3 sips in case of refusal");
+        contentList.add(personName + " give a foot massage to the person to your right .The person who refuses has to drink 3 sips");
+        contentList.add(personName + " switch your clothes with a player chosen by the group. 5 sips in case of refusal");
+        contentList.add(personName + " switch socks with the person to your right");
+        contentList.add(personName + " hold hands with the first person (opposite sex) on your left for the rest of the game. 3 sips for the person who refuses to do the dare");
+        contentList.add(personName + " for the next 15 minutes, talk with a deep country accent");
+        contentList.add(personName + " pretend to be a chicken who’s having trouble laying an egg.3 sips in case of refusal");
+        contentList.add(personName + " put the mark of Simba on the front facing player head using ketchup. The person who refuses has to drink 3 sips");
+        contentList.add(personName + " take off your underwear and put it on your head. Wear it for 10 minutes. 4 sips in case of refusal");
+        contentList.add(personName + " seduce a member of the same gender in the group. The group must choose the player. 3 sips for the one who refuses");
+        contentList.add("All the sips get doubled for 3 rounds. Cheers !!");
+        contentList.add(personName + " drag your butt on the carpet like a dog from one end to another. 3 sips in case of refusal");
+        contentList.add(personName + " bend at the waist so that you are looking behind you between your legs. Now run backwards until you can tag someone with your butt.3 sips in case of refusal. The person tagged has to drink the same amount of sips");
+        contentList.add(personName + " act like whatever animal someone yells out for the next 3 minutes.3 sips in case of refusal");
+        contentList.add("The person with the closest birthday can give out 4 sips.");
+        contentList.add(personName + " invent a new rule for the rest of the game");
+        contentList.add(personName + " eat a lemon");
+        contentList.add(personName + " take your chair and pretend it is the love of your life. 3 sips in case of refusal");
+        contentList.add(personName + " yell the first sentence or word that comes into your mind right now");
+        contentList.add(personName + " brush the teeth of the person to your right. 2 sips for the person who refuses to complete the dare");
+        contentList.add("The first who laugh must finish their drink");
+        contentList.add(personName + " pretend to be the person to your right for 10 minutes");
+        contentList.add(personName + " dance without music for 1 minute. 2 sips if you refuse");
+        contentList.add(personName + " open your front door and howl like a wolf for 30 seconds. 3 sips in case of refusal");
+        contentList.add(personName + " until the next round, talk super loud, like nobody can hear you. 2 sips in case of refusal");
+        contentList.add(personName + " get into a debate with a wall or drink 3 times");
+        contentList.add(personName + " take a selfie with the toilet. Give out 4 sips if you post it on your story.");
+        contentList.add(personName + " go outside and try to summon the rain. 3 sips in case of refusal");
+        contentList.add(personName + " pick the nose of the person next to you.");
+        contentList.add(personName + " silently do the macarena");
+        contentList.add(personName + " give everyone in the room a hug.");
+        contentList.add(personName + " go outside and hug a tree or drink 2 sips in case of refusal");
+        contentList.add(personName + " wear your underwear on the outside of your clothes or drink 3 times");
+        contentList.add(personName + " run down the street with a wet T-shirt on. 2 sips in case of refusal");
+        contentList.add(personName + " put all of your clothes on backward. 2 sips in case of refusal");
+        contentList.add(personName + " if you are a man, wear lipstick for the rest of the game. If you are a girl, let a man do your makeup. 3 sips in case of refusal");
+        contentList.add(personName + " walk like a crab for the rest of the game or drink 2 times");
+        contentList.add(personName + " read two paragraphs from a book of someone’s choice");
+        contentList.add(personName + " make fart noises with your armpit. Drink 3 times if you cannot do that");
+        contentList.add(personName + " hop on one foot wherever you have to go.");
+        contentList.add(personName + " let your friends pose you and stay like that until the next round.");
+        contentList.add(personName + " eat a single spaghetti like in Lady and the Tramp with the person to your left or drink 3 times");
+        contentList.add(personName + " take a selfie with the person to your right and post it on your story or drink 2 times"); //TODO : mai vad ca poate pun ceva mai interesant
 
+    }
 }

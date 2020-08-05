@@ -66,7 +66,7 @@ public class HardActivity extends AppCompatActivity {
     }
 
     private void nextContentDisplay(){
-        if(contentCounter < 10){                
+        if(contentCounter < 30){
             loadContentList(getRandomPerson(namesList));
             textView.setBackgroundResource(getRandomDrawableFile(drawableIdList));
             textView.setText(getRandomContent(contentList));
@@ -113,7 +113,7 @@ public class HardActivity extends AppCompatActivity {
         contentList.add("Drink 3 times if you have ever given a massage that turned into something more interesting");
         contentList.add(personName + " for each piece of clothing you take off, give out 1 sip");
         contentList.add("Everyone unbutton your shirts and drink once for each button");
-        contentList.add(personName + " choose a person to caress you while you are finishing your drink (the zone is chosen by the others)"); //TODO: daca am scris bine
+        contentList.add(personName + " choose a person to caress you while you are finishing your drink (the zone is chosen by the others)");
         contentList.add("Drink 3 times if you have ever had more fuck buddies at the same time");
         contentList.add(personName + " choose your drinking bitch. You will be able to transfer your sips to him/her 2 times in this game");
         contentList.add("Drink 3 times if you kissed 2 people in the same night");
@@ -124,7 +124,7 @@ public class HardActivity extends AppCompatActivity {
         contentList.add("If you look people in the eyes while speaking to them, drink one sip (5 rounds)"); //TODO: VIRUS
         contentList.add("Drink 3 times if your first time was not that good");
         contentList.add("If you ever had sex while you or your partner was on her period, drink 5 times");
-        contentList.add(personName + " has to speak with Chinese accent (5 rounds)");  //TODO : VIRUS and to do something here
+        contentList.add(personName + " has to speak with Chinese accent (5 rounds)");
         contentList.add(personName + " drink as many sips as you poured. None ? Drink 3 times for the bartender");
         contentList.add("Girls, the first one to have had her period can give 4 sips");
         contentList.add("Spin the bottle baby! Each player has to spin the bottle and kiss the targeted player (5 sips for refusal). " + personName + " starts");
@@ -164,6 +164,51 @@ public class HardActivity extends AppCompatActivity {
         contentList.add(personName + " and the player in front of him/her has to tell us a bedroom fantasy (it does not matter if it happened or not). The player with the most interesting one can give out 5 sips to any player");
         contentList.add(personName + " you are a special player. You can rest your feet on the right player lap for 2 rounds and refuse to drink");
         contentList.add("The clock tells you to drink. The first player has to drink the first number of the hour, the second, the second number and so on." + personName + " you start and then everything goes to the right.");
+        contentList.add(personName + " let the person in front of you pour ice cubes down your chest, back or butt or all of them");
+        contentList.add(personName + " let the person on your left do 5 push-ups with you lying under them (face to face)");
+        contentList.add(personName + " transfer an ice cube from the person on your right's mouth to yours");
+        contentList.add(personName + " let the person to your right and left give you a wet willy at the same time. 5 sips in case of refusal");
+        contentList.add("The group chooses someone who takes part in the game. " + personName + " will be spanked by that person. 3 sips for the person who refuses");
+        contentList.add("All the sips get doubled for 5 rounds. Cheers !!");
+        contentList.add(personName + " bend at the waist so that you are looking behind you between your legs. Now run backwards until you can tag someone with your butt.3 sips in case of refusal. The person tagged has to drink 6 sips");
+        contentList.add(personName + " act like whatever animal someone yells out for the next 3 minutes.3 sips in case of refusal");
+        contentList.add("Two sips for everyone in the game !!!");
+        contentList.add(personName + " give a sensual neck kiss to the person to your left. 4 sips in case of refusal. If that person enjoyed it, well, have a funny night and give out 5 sips");
+        contentList.add(personName + " sit there in nothing but boxers. 3 sips in case of refusal");
+        contentList.add("Each player can give out as many sips as clothes taken off of them");
+        contentList.add("Girls not wearing a bra can give out 2 sips to men. Cheers !!!");
+        contentList.add("Drink if your crush is in this game");
+        contentList.add(personName + " blindfold yourself. The group must choose 3 players. If you guess 2 of them just by touching their butts you can give out 5 sips. 4 sips in case of refusal or if you could not guess those 2 players");
+        contentList.add("The group choose a song. " + personName + ", you are the stripper tonight. Go dance and take those clothes off. 4 sips in case of refusal");
+        contentList.add(personName + " invent a new rule for the rest of the game");
+        contentList.add(personName + " each player you can kiss has to finish their drink");
+        contentList.add(personName + " yell the first sentence or word that comes into your mind right now");
+        contentList.add(personName + " say 'and everything went well' after each sentence until your next turn");
+        contentList.add(personName + " put on the bra of the first girl to your right. 3 sips for both of you if one player refuses. Both of you can give out 4 sips if the changing take place in the same room");
+        contentList.add("The first who laugh must finish their drink");
+        contentList.add(personName + " blindfold yourself. The group pick a player and you have to give that player a lap dance, blindfolded of course. 3 sips if you refuse to complete the dare");
+        contentList.add(personName + " pretend to be the person in front of you for 10 minutes");
+        contentList.add(personName + " twerk for 1 minute straight. The group pick the music");
+        contentList.add(personName + " until the next round, talk super loud, like nobody can hear you. 2 sips in case of refusal");
+        contentList.add(personName + " get into a debate with a wall or drink 3 times");
+        contentList.add(personName + " take a selfie with the toilet. Give out 4 sips if you post it on your story.");
+        contentList.add(personName + " pick the nose of the person next to you.");
+        contentList.add(personName + " give everyone in the room a hug.");
+        contentList.add(personName + " wear your underwear on the outside of your clothes or drink 4 times");
+        contentList.add(personName + " run down the street with a wet T-shirt on. 4 sips in case of refusal. If you are a girl you can give out 5 sips if you complete the challenge without the bra");
+        contentList.add(personName + " if you are a man, wear lipstick for the rest of the game. If you are a girl, let a man do your makeup. 4 sips in case of refusal");
+        contentList.add(personName + " walk down the street in your underwear or drink 3 times");
+        contentList.add(personName + " for the rest of the game you cannot say 'I'. 2 sips for each 'I' you said");
+        contentList.add(personName + " walk like a crab for the rest of the game.");
+        contentList.add(personName + " watch a porn video from start to the end");
+        contentList.add("The group chooses a player who must shave/wax " + personName + " wherever the group decides. If anyone refuses, both of you must drink 5 times");
+        contentList.add(personName + " eat a single spaghetti like in Lady and the Tramp with the person to your left or drink 5 times");
+        contentList.add(personName  + " you’re in school, and you’ve been a bad student. For the next round, you’re in time out on someone’s lap. The group chooses the player");
+        contentList.add(personName + " with your eyes closed and the other players standing in front you have to move towards them. First player you touch you have to kiss him/her where you touched him/her.");
+        contentList.add(personName + " if you are a girls then take off your bra and toss it out the window or drink 3 times. If you are a man, well, drink a sip for each girl at the table");
+        contentList.add(personName + " blindfold yourself. A random player will give you a back massage. If you like it you can choose to kiss that player without knowing him/her.");
+        contentList.add(personName + " you have to keep your hand on the very inner thigh of the person to your right for the next round or drink 3 times.");
+        contentList.add("Have you ever had a crush on a teacher ? Vote at the same time. The winners can give out 2 sips each");
+        contentList.add(personName + " go skinny dipping for 2 minutes or drink 2 times");
     }
-
 }

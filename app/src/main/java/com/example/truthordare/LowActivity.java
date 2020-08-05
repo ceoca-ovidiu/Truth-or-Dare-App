@@ -64,7 +64,7 @@ public class LowActivity extends AppCompatActivity {
     }
 
     private void nextContentDisplay(){
-        if(contentCounter < 10){
+        if(contentCounter < 30){
         loadContentList(getRandomPerson(namesList));
         textView.setBackgroundResource(getRandomDrawableFile(drawableIdList));
         textView.setText(getRandomContent(contentList));
@@ -126,6 +126,33 @@ public class LowActivity extends AppCompatActivity {
         contentList.add("Everyone take as many sips as the amount of years you studied after high school");
         contentList.add("Clothes to wear in summer (first to run out of ideas drink 5 times).");
         contentList.add("The next person who has to drink will double his/her amount of sips");
-
+        contentList.add(personName + " eat a spoon of ketchup. 2 sips in case of refusal");
+        contentList.add(personName + " swallow a raw egg");
+        contentList.add(personName + " swap shirts with the person on your left.");
+        contentList.add(personName + " spin an imaginary hula hoop around your waist for 3 minutes while the game continues. 4 sips in case of refusal");
+        contentList.add(personName + " make a funny face and keep it for 2 minutes while the game continues");
+        contentList.add(personName + " act like whatever animal someone yells out for the next 3 minutes.3 sips in case of refusal");
+        contentList.add(personName + " invent a new rule for the rest of the game");
+        contentList.add(personName + " yell the first sentence or word that comes into your mind right now");
+        contentList.add("The first who laugh must finish their drink");
+        contentList.add(personName + " pretend to be the person to your left for 10 minutes");
+        contentList.add(personName + " until the next round, talk super loud, like nobody can hear you. 2 sips in case of refusal");
+        contentList.add(personName + " pretend you’re a bird and eat cereal off the floor using only your mouth for 2 round straight");
+        contentList.add(personName + " let someone else style your hair and keep it that way for the rest of the game.");
+        contentList.add(personName + " use a brush or something that looks like it and pretend you’re talking into a microphone each time you speak.");
+        contentList.add(personName + " talk without closing your mouth.");
+        contentList.add(personName + " get into a debate with a wall or drink 3 times");
+        contentList.add(personName + " take a selfie with the toilet. Give out 2 sips if you post it on your story.");
+        contentList.add(personName + " go outside and try to summon the rain. 3 sips in case of refusal");
+        contentList.add(personName + " pick the nose of the person next to you.");
+        contentList.add(personName + " silently do the macarena");
+        contentList.add(personName + " hold your nose while talking. 2 sips in case of refusal");
+        contentList.add(personName + " go outside and hug a tree. 3 sips in case of refusal");
+        contentList.add(personName + " give everyone in the room a hug.");
+        contentList.add(personName + " go outside and hug a tree or drink 2 sips in case of refusal");
+        contentList.add(personName + " put all of your clothes on backward. 2 sips in case of refusal");
+        contentList.add(personName + " walk like a crab for the rest of the game.");
+        contentList.add(personName + " hop on one foot wherever you have to go.");
+        contentList.add(personName + " trade socks with the person to your left or drink 2 times");
     }
 }
