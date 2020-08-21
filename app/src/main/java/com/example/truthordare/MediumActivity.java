@@ -196,6 +196,19 @@ public class MediumActivity extends AppCompatActivity {
         contentList.add(personName + " let your friends pose you and stay like that until the next round.");
         contentList.add(personName + " eat a single spaghetti like in Lady and the Tramp with the person to your left or drink 3 times");
         contentList.add(personName + " take a selfie with the person to your right and post it on your story or drink 2 times"); //TODO : mai vad ca poate pun ceva mai interesant
+        contentList.add("It is karaoke night." + personName + " has to sing a song chosen by the group");
+        contentList.add("People wearing glasses drink 3 times");
+        contentList.add("Anyone who has used a dating website drink 3 times");
+        contentList.add("The first player to find a triangular object in the room gives out 2 sips, no phones allowed");
+        contentList.add(personName + " if you know all the names of the person in front of you (first, middle, last), this player will drink 2 times. Otherwise you will drink 3 times");
+        contentList.add("Until " + personName + " sees his/her name on the screen, he/she will drink for every new screen");
+        contentList.add(personName + " if you are wearing clothes that don't belong to you, give out 3 sips. Otherwise drink them");
+        contentList.add("Everyone older than " + personName + " drink 5 times");
+        contentList.add(personName + " put on as many clothes as glasses you finished until now");
+        contentList.add(personName + " you say 'In my suitcase there is...' and each player has to add a new object after repeating the ones already said. 2 sips in case of a repeated object or forgetting one");
+        contentList.add(personName + " give out as many sips as single persons are around the table");
+        contentList.add(personName + " if your first time was after 18, give out 3 sips");
+        contentList.add(personName + " you are the clock for 5 rounds. Loudly announce the time every minute. Drink once for each minute you forget");
 
     }
 }

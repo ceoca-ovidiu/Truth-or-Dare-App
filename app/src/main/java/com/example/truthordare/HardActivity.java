@@ -144,7 +144,7 @@ public class HardActivity extends AppCompatActivity {
         contentList.add("The lovely person hosting this game gives out 2 sips");
         contentList.add(personName + " if you manage to kiss a player anywhere without forcing them, this player will finish their drink. You have 5 minutes ");
         contentList.add(personName + " has to pause 2 seconds between each spoken word. Drink once every time you forget to pause. (5 rounds)");
-        contentList.add("Girls, if you ever had vaginal orgasm drink 2 times");
+        contentList.add("If you ever had orgasm drink 3 times");
         contentList.add("Things to do when nobody is home. " + personName + " you start. (first to repeat or cannot find anything has to drink 2 times)");
         contentList.add("Things to do before going out when you are single. " + personName + " you start. (first to repeat or cannot find anything has to drink 2 times)");
         contentList.add("Players have ever dreamt about fighting someone drink 2 times");
@@ -158,8 +158,8 @@ public class HardActivity extends AppCompatActivity {
         contentList.add("Give out 5 sips if you have ever masturbated at work");
         contentList.add("New rule, each time someone talks, he/she has to begin the sentence with 'but sir,...'");
         contentList.add("Male panties contest. Girls, you are the jury. Loser get 3 sips");
-        contentList.add("The group has to choose two players (male and female) who will finish their drinks and french kiss each other");
-        contentList.add("Kiss party. Go around the room and kiss the person to the right or drink 5 times." + personName + " you start");
+        contentList.add("The group has to choose two players (male and female) who will finish their drinks and kiss each other");
+        contentList.add("Kiss party. Go around the room and kiss the person to the right or drink 4 times." + personName + " you start");
         contentList.add(personName + " you can give out as many sips as you have uncles");
         contentList.add(personName + " and the player in front of him/her has to tell us a bedroom fantasy (it does not matter if it happened or not). The player with the most interesting one can give out 5 sips to any player");
         contentList.add(personName + " you are a special player. You can rest your feet on the right player lap for 2 rounds and refuse to drink");
@@ -201,6 +201,7 @@ public class HardActivity extends AppCompatActivity {
         contentList.add(personName + " for the rest of the game you cannot say 'I'. 2 sips for each 'I' you said");
         contentList.add(personName + " walk like a crab for the rest of the game.");
         contentList.add(personName + " watch a porn video from start to the end");
+        contentList.add("It is karaoke night." + personName + " has to sing a song chosen by the group");
         contentList.add("The group chooses a player who must shave/wax " + personName + " wherever the group decides. If anyone refuses, both of you must drink 5 times");
         contentList.add(personName + " eat a single spaghetti like in Lady and the Tramp with the person to your left or drink 5 times");
         contentList.add(personName  + " you’re in school, and you’ve been a bad student. For the next round, you’re in time out on someone’s lap. The group chooses the player");
@@ -210,5 +211,25 @@ public class HardActivity extends AppCompatActivity {
         contentList.add(personName + " you have to keep your hand on the very inner thigh of the person to your right for the next round or drink 3 times.");
         contentList.add("Have you ever had a crush on a teacher ? Vote at the same time. The winners can give out 2 sips each");
         contentList.add(personName + " go skinny dipping for 2 minutes or drink 2 times");
+        contentList.add(personName + " choose a letter. Each player who slept with a person whose name starts with this letter has to drink 2 times");
+        contentList.add(personName + " choose someone to show a nipple. 3 sips in case of refusal");
+        contentList.add(personName + " go around the room and touch the chest of the person to your right or drink 3 times");
+        contentList.add(personName + " if you put on deodorant before coming here, give out 2 sips. Otherwise drink them");
+        contentList.add(personName + " choose between kissing someone or drinking 2 times (cheek kiss is also good)");
+        contentList.add("From now on, every time a player says a bad word, he/she must take a piece of clothing off");
+        contentList.add("Anyone who has used a dating website drink 3 times");
+        contentList.add("Drink 5 times if you have ever had sex thanks to a dating website");
+        contentList.add("People wearing glasses drink 3 times");
+        contentList.add("The first player to find a triangular object in the room gives out 2 sips, no phones allowed");
+        contentList.add(personName + " if you know all the names of the person in front of you (first, middle, last), this player will drink 2 times. Otherwise you will drink 3 times");
+        contentList.add("Until " + personName + " sees his/her name on the screen, he/she will drink for every new screen");
+        contentList.add(personName + " if you are wearing clothes that don't belong to you, give out 3 sips. Otherwise drink them");
+        contentList.add("Everyone older than " + personName + " drink 5 times");
+        contentList.add(personName + " put on as many clothes as glasses you finished until now");
+        contentList.add(personName + " you say 'In my suitcase there is...' and each player has to add a new object after repeating the ones already said. 2 sips in case of a repeated object or forgetting one");
+        contentList.add(personName + " give out as many sips as single persons are around the table");
+        contentList.add(personName + " if your first time was after 18, give out 3 sips");
+        contentList.add(personName + " you are the clock for 5 rounds. Loudly announce the time every minute. Drink once for each minute you forget");
+
     }
 }

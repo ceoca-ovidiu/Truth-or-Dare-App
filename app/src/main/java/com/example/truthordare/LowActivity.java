@@ -154,5 +154,15 @@ public class LowActivity extends AppCompatActivity {
         contentList.add(personName + " walk like a crab for the rest of the game.");
         contentList.add(personName + " hop on one foot wherever you have to go.");
         contentList.add(personName + " trade socks with the person to your left or drink 2 times");
+        contentList.add("Anyone who is shorter than " + personName + " has to drink 3 times");
+        contentList.add(personName + " give out as many sips as push-ups you can do with one hand");
+        contentList.add("Until " + personName + " sees his/her name on the screen, he/she will drink for every new screen");
+        contentList.add(personName + " if you are wearing clothes that don't belong to you, give out 3 sips. Otherwise drink them");
+        contentList.add("Everyone older than " + personName + " drink 5 times");
+        contentList.add(personName + " put on as many clothes as glasses you finished until now");
+        contentList.add(personName + " you say 'In my suitcase there is...' and each player has to add a new object after repeating the ones already said. 2 sips in case of a repeated object or forgetting one");
+        contentList.add(personName + " give out as many sips as single persons are around the table");
+        contentList.add(personName + " you are the clock for 5 rounds. Loudly announce the time every minute. Drink once for each minute you forget");
+
     }
 }

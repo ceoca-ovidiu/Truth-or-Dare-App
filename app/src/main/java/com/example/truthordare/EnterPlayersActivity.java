@@ -57,7 +57,7 @@ public class EnterPlayersActivity extends AppCompatActivity {
 
     private void loadCompletedEditTexts(int numberOfPlayers, LinearLayout layout, ArrayList<EditText> editTextArrayList, ArrayList<String> stringArrayList) { // number of players = 2  // editTextArrayList = 0
 
-        for (int i = 0; i < numberOfPlayers; i++) {
+        for (int i = 1; i <= numberOfPlayers; i++) {
             EditText editText = new EditText(EnterPlayersActivity.this);
             editText.setBackgroundColor(Color.parseColor("#22566b"));
             editText.setTextColor(Color.parseColor("#ffffff"));
@@ -95,42 +95,6 @@ public class EnterPlayersActivity extends AppCompatActivity {
             }
             return namesList;
         }
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.i(TAG, "onRestart: out");
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Log.i(TAG, "onStart: out");
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.i(TAG, "onResume: out");
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.i(TAG, "onStop: out");
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.i(TAG, "onDestroy: out");
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Log.i(TAG, "onPause: out");
     }
 
     private void loadEditTexts(int numberOfPlayers, LinearLayout layout, ArrayList<EditText> editTextArrayList) {
