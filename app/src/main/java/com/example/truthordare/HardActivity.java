@@ -121,21 +121,21 @@ public class HardActivity extends AppCompatActivity {
         contentList.add("If you ever cried out the wrong person's name while having sex, drink 4 times");
         contentList.add(personName + " blindfold yourself. 2 players will kiss you anywhere. If you guess one of the two players you can give 4 sips. You have one chance");
         contentList.add(personName + " tell a funny story about a player or drink 2 times");
-        contentList.add("If you look people in the eyes while speaking to them, drink one sip (5 rounds)"); //TODO: VIRUS
+        contentList.add("If you look people in the eyes while speaking to them, drink one sip (5 rounds)");
         contentList.add("Drink 3 times if your first time was not that good");
         contentList.add("If you ever had sex while you or your partner was on her period, drink 5 times");
         contentList.add(personName + " has to speak with Chinese accent (5 rounds)");
         contentList.add(personName + " drink as many sips as you poured. None ? Drink 3 times for the bartender");
         contentList.add("Girls, the first one to have had her period can give 4 sips");
         contentList.add("Spin the bottle baby! Each player has to spin the bottle and kiss the targeted player (5 sips for refusal). " + personName + " starts");
-        contentList.add(personName + " is Cupid! You choose who kisses or hugs who. (5 sips for the person who refused) (3 rounds)"); //TODO : VIRUS
+        contentList.add(personName + " is Cupid! You choose who kisses or hugs who. (3 sips for the person who refused) (5 rounds)");
         contentList.add(personName + " if you have friends to whom you usually speak in a foreign language, give out 3 sips. Drink them otherwise");
         contentList.add(personName + " show your boobs or drink 3 times. If you are a man, you can give out 3 sips");
         contentList.add("If you ever painted your nails, drink 3 times");
         contentList.add("Those who ever faked an orgasm drink 2 times");
-        contentList.add("The group choose a player." + personName + " mime a sexual position with that player.(5 sips for the person who refused)");
+        contentList.add("The group choose a player." + personName + " mime a sexual position with that player.(5 sips for the person who refuses)");
         contentList.add("Drink 2 times if you ever fucked in a friend's bed without them finding out");
-        contentList.add(personName + " let the player chosen by the group to lick your nipples or drink 4 times");
+        contentList.add(personName + " let the player chosen by the group to pinch your nipples or drink 4 times");
         contentList.add("What is arousing your partner ? (first to repeat or cannot find anything has to drink 3 times)" + personName + " starts");
         contentList.add("If you ever had sex despite friends sleeping in the same room, give out 3 sips");
         contentList.add("'Typical places for fantasies'. " + personName + " , you start. (first to repeat or cannot find anything has to drink 2 times)");
@@ -230,6 +230,37 @@ public class HardActivity extends AppCompatActivity {
         contentList.add(personName + " give out as many sips as single persons are around the table");
         contentList.add(personName + " if your first time was after 18, give out 3 sips");
         contentList.add(personName + " you are the clock for 5 rounds. Loudly announce the time every minute. Drink once for each minute you forget");
-
+        contentList.add(personName + " you have to keep your hand on the right person thigh for for the next 5 rounds");
+        contentList.add(personName + " give out 3 sips if you find yourself attractive, otherwise drink them");
+        contentList.add(personName + " choose 2 players who must mime a sexual position and drink at the same time 3 sips");
+        contentList.add(personName + "is now forbidden to use personal pronouns until we say so. 1 sip for each mistake");
+        contentList.add("When the clock shows a multiple of ten (8:00 8:10 8:20 etc.) the first player who shout 'shit i left my cat back in space' can give out 10 sips");
+        contentList.add("FREEZE !!! the last person to stop moving drinks 4 times");
+        contentList.add("Give out 3 sips if you french kissed two people in the same night");
+        contentList.add("If you cannot touch your toes while standing straight legs drink 2 times");
+        contentList.add("Places to put your hands during penetration. The first one who runs out of ideas has to drink 3 times. " + personName + " you start.");
+        contentList.add("If you like dirty talk drink 3 times");
+        contentList.add(personName + " if you smoke, throw a cigarette to the trash or drink 2 times. If you do not smoke give out 5 sips");
+        contentList.add(personName + " give a hickey to the person chosen by the group or drink 3 times");
+        contentList.add("Foods that give you bad breath. The first who runs out of ideas has to drink 4 times. " + personName + " you start.");
+        contentList.add("Things you can find in a purse. The first who runs out of ideas has to drink 4 times. " + personName + " you start.");
+        contentList.add("The oldest person in the room must drink 3 sips");
+        contentList.add(personName + " transfer an ice cube from your mouth to the mouth of the person sitting in front of you or drink 4 times");
+        contentList.add("Morning or night sex ? Everyone vote at the same time, losing group drinks 2 times");
+        contentList.add(personName + " challenge someone to unclip a female player's bra. If that person can do it in 5 seconds time, he/she can give out 4 sips otherwise drink them");
+        contentList.add("Let's do it again !! Those who have ever kissed each other have to kiss each other again or both drink 3 times");
+        contentList.add("New rule !! Everytime we finish our drink we must caress our nipples");
+        contentList.add("Girls, take off a piece of clothing or drink 2 times");
+        contentList.add("The person the group decides is the most sober must drink 5 times");
+        contentList.add(personName + " start drinking. The person to the left follows and so on. Continue drinking until the first person has stopped");
+        contentList.add(personName + " drink as many times as you have balls ");
+        contentList.add("Give out 3 sips if you have ever had surgery");
+        contentList.add(personName + " choose who will drink 3 times from your glass");
+        contentList.add(personName + " empty your drink in your panties or in your mouth, it is up to you");
+        contentList.add(personName + " is Caesar !! Anytime: thumb up and the targeted person is free from drinking, thumb down and the player doubles");
+        contentList.add(personName + " must do a piggyback to the person to his/her right. 3 sips in case of refusal");
+        contentList.add(personName + " you are the dictator. You can dare anyone anytime. 3 sips in case of refusal. (5 rounds)");
+        contentList.add("The last person to still have their feet on the ground drinks 2 times");
+        contentList.add(personName + " add either a mixer or alcohol to the glass of the person in front of you");
     }
 }

@@ -209,6 +209,21 @@ public class MediumActivity extends AppCompatActivity {
         contentList.add(personName + " give out as many sips as single persons are around the table");
         contentList.add(personName + " if your first time was after 18, give out 3 sips");
         contentList.add(personName + " you are the clock for 5 rounds. Loudly announce the time every minute. Drink once for each minute you forget");
+        contentList.add(personName + " give out 3 sips if you find yourself attractive, otherwise drink them");
+        contentList.add("When the clock shows a multiple of ten (8:00 8:10 8:20 etc.) the first player who shout 'shit i left my cat back in space' can give out 10 sips");
+        contentList.add("FREEZE !!! the last person to stop moving drinks 4 times");
+        contentList.add("If you cannot touch your toes while standing straight legs drink 2 times");
+        contentList.add("Foods that give you bad breath. The first who runs out of ideas has to drink 4 times. " + personName + " you start.");
+        contentList.add(personName + " if you smoke, throw a cigarette to the trash or drink 2 times. If you do not smoke give out 5 sips");
+        contentList.add("Things you can find in a purse. The first who runs out of ideas has to drink 4 times. " + personName + " you start.");
+        contentList.add("The oldest person in the room must drink 3 sips");
+        contentList.add("Things you can find in a purse. The first who runs out of ideas has to drink 4 times. " + personName + " you start.");
+        contentList.add(personName + " drink as many times as you have balls ");
+        contentList.add(personName + " choose who will drink 3 times from your glass");
+        contentList.add(personName + " is Caesar !! Anytime: thumb up and the targeted person is free from drinking, thumb down and the player doubles");
+        contentList.add(personName + " must do a piggyback to the person to his/her right. 3 sips in case of refusal");
+        contentList.add(personName + " you are the dictator. You can dare anyone anytime. 3 sips in case of refusal. (5 rounds)");
+        contentList.add("The last person to still have their feet on the ground drinks 2 times");
 
     }
 }
