@@ -66,7 +66,7 @@ public class HardActivity extends AppCompatActivity {
     }
 
     private void nextContentDisplay(){
-        if(contentCounter < 30){
+        if(contentCounter < 45){
             loadContentList(getRandomPerson(namesList));
             textView.setBackgroundResource(getRandomDrawableFile(drawableIdList));
             textView.setText(getRandomContent(contentList));
@@ -213,7 +213,7 @@ public class HardActivity extends AppCompatActivity {
         contentList.add(personName + " go skinny dipping for 2 minutes or drink 2 times");
         contentList.add(personName + " choose a letter. Each player who slept with a person whose name starts with this letter has to drink 2 times");
         contentList.add(personName + " choose someone to show a nipple. 3 sips in case of refusal");
-        contentList.add(personName + " go around the room and touch the chest of the person to your right or drink 3 times");
+        contentList.add("Go around the room and touch the chest of the person to your right or drink 3 times");
         contentList.add(personName + " if you put on deodorant before coming here, give out 2 sips. Otherwise drink them");
         contentList.add(personName + " choose between kissing someone or drinking 2 times (cheek kiss is also good)");
         contentList.add("From now on, every time a player says a bad word, he/she must take a piece of clothing off");
@@ -237,7 +237,7 @@ public class HardActivity extends AppCompatActivity {
         contentList.add("When the clock shows a multiple of ten (8:00 8:10 8:20 etc.) the first player who shout 'shit i left my cat back in space' can give out 10 sips");
         contentList.add("FREEZE !!! the last person to stop moving drinks 4 times");
         contentList.add("Give out 3 sips if you french kissed two people in the same night");
-        contentList.add("If you cannot touch your toes while standing straight legs drink 2 times");
+        contentList.add("If you cannot touch your toes while having straight legs drink 2 times");
         contentList.add("Places to put your hands during penetration. The first one who runs out of ideas has to drink 3 times. " + personName + " you start.");
         contentList.add("If you like dirty talk drink 3 times");
         contentList.add(personName + " if you smoke, throw a cigarette to the trash or drink 2 times. If you do not smoke give out 5 sips");
@@ -262,5 +262,14 @@ public class HardActivity extends AppCompatActivity {
         contentList.add(personName + " you are the dictator. You can dare anyone anytime. 3 sips in case of refusal. (5 rounds)");
         contentList.add("The last person to still have their feet on the ground drinks 2 times");
         contentList.add(personName + " add either a mixer or alcohol to the glass of the person in front of you");
+        contentList.add("'Blowjob or anal ?' Vote at the same time, losing group drinks 4 times");
+        contentList.add("The person to have diluted their drink the most, drink half of it");
+        contentList.add(personName + " finish your drink and use the glass to play spin the bottle. Whoever you get, kiss them on the lips");
+        contentList.add("Those who have foreplayed before penetration drink 3 times");
+        contentList.add("Let's play SPIN THE BOTTLE !!! From now on you can choose to drink or spin a bottle. You must kiss the person targeted by the bottle or double the number of sips");
+        contentList.add("The younger player in the room can give out 3 sips");
+        contentList.add(personName + " kiss the chest of a player chosen by the group or drink 2 times");
+        contentList.add(personName + " give a foot massage to a player chosen by the group or drink 3 times");
+        contentList.add("If you ever fucked a minor though you were a major drink 3 times");
     }
 }

@@ -17,7 +17,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="16dp"
         android:text="NEXT"
-        android:background="@drawable/rounded_button"
+        android:background="@drawable/viridianGreen_stroke_rounded_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.499"

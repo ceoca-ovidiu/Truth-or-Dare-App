@@ -1,3 +1,9 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="button_padding">50dp</dimen>
+    <dimen name="stroke_width_3dp">3dp</dimen>
+    <dimen name="radius_angle_180dp">180dp</dimen>
+    <dimen name="radius_angle_50dp">50dp</dimen>
+
 </resources>

@@ -4,65 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/one_color_background"
     tools:context=".PlayersNumberActivity">
 
     <Button
         android:id="@+id/enterPlayersDoneButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="162dp"
-        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="150dp"
+        android:theme="@style/green_button_style"
+        android:background="@drawable/viridian_green_stroke_rounded_button"
         android:text="@string/done"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/playersNumberEditText" />
-
-
-   <!-- <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/enterPlayersAnimationView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/enterPlayersDoneButton"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/orange_dot_pulse" />-->
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/playersNumberTextView"
-        android:layout_width="229dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
         android:gravity="center"
         android:lines="2"
-        android:text="@string/how_many_2_15"
-        android:textColor="#ff8000"
-        android:textSize="40sp"
+        android:text="@string/how_many_players"
+        android:textColor="@color/blueSaphire"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/lowerRectangle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/lowerRectangle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="250dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/green_rectangle_big" />
+
     <EditText
         android:id="@+id/playersNumberEditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/viridian_green_stroke_rounded_text_view"
         android:ems="10"
-        android:background="#22566b"
-        android:textColor="#ffffff"
-        android:hint="Number of Players"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned"
+        android:theme="@style/green_edit_text_style"
+        app:layout_constraintBottom_toTopOf="@+id/enterPlayersDoneButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/playersNumberTextView" />
+        app:layout_constraintTop_toTopOf="@+id/lowerRectangle"
+        app:layout_constraintVertical_bias="0.986" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

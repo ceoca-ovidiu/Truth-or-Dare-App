@@ -22,4 +22,18 @@
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
+    <style name="green_button_style">
+        <item name="android:paddingStart">@dimen/button_padding</item>
+        <item name="android:paddingEnd">@dimen/button_padding</item>
+        <item name="android:textColor">@color/blueSaphire</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="green_edit_text_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/blueSaphire</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/viridian_green_stroke_rounded_text_view</item>
+    </style>
+
 </resources>

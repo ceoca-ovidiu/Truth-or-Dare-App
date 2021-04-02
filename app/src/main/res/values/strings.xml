@@ -14,5 +14,5 @@
     <string name="dare">DARE</string>
     <string name="done">DONE</string>
     <string name="back">BACK</string>
-    <string name="how_many_2_15">How many ? (2-15)</string>
+    <string name="how_many_players">How many players ?</string>
 </resources>

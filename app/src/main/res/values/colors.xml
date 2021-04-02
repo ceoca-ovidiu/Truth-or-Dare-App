@@ -3,4 +3,23 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--GREEN COLOR PALETTE-->
+    <color name="blueSaphire">#22577A</color>
+    <color name="viridianGreen">#38A3A5</color>
+    <color name="caribbeanGreen">#57CC99</color>
+    <color name="lightGreen">#80ED99</color>
+    <color name="teaGreen">#C7F9CC</color>
+
+    <!--RED BLUE COLOR PALETTE-->
+    <color name="imperialRed">#E63946</color>
+    <color name="Honeydew">#F1FAEE</color>
+    <color name="powderBlue">#A8DADC</color>
+    <color name="steelBlue">#457B9D</color>
+    <color name="prussianBlue">#1D3557</color>
+
+
 </resources>

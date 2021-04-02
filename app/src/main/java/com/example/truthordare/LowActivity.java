@@ -64,7 +64,7 @@ public class LowActivity extends AppCompatActivity {
     }
 
     private void nextContentDisplay(){
-        if(contentCounter < 30){
+        if(contentCounter < 45){
         loadContentList(getRandomPerson(namesList));
         textView.setBackgroundResource(getRandomDrawableFile(drawableIdList));
         textView.setText(getRandomContent(contentList));
