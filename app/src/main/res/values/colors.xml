@@ -6,6 +6,7 @@
 
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="white_75">#BFFFFFFF</color>
 
     <!--GREEN COLOR PALETTE-->
     <color name="blueSaphire">#22577A</color>
@@ -20,6 +21,19 @@
     <color name="powderBlue">#A8DADC</color>
     <color name="steelBlue">#457B9D</color>
     <color name="prussianBlue">#1D3557</color>
+
+    <!--COLORS USED FOR DARES LAYOUTS-->
+    <color name="brown_50">#80b36a5e</color>
+    <color name="green_50">#802a9d8f</color>
+    <color name="grey_50">#807d8597</color>
+    <color name="orange_50">#80e76f51</color>
+    <color name="pink_50">#80ff4566</color>
+    <color name="purple_50">#809c89b8</color>
+    <color name="red_50">#80e63946</color>
+    <color name="turquoise_50">#8068d8d6</color>
+    <color name="yellow_50">#80fca311</color>
+    <color name="blue_50">#800466c8</color>
+    <color name="brick_50">#80ff7d00</color>
 
 
 </resources>

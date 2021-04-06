@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.text.TextUtils;
@@ -55,12 +56,14 @@ public class EnterPlayersActivity extends AppCompatActivity {
         Log.i(TAG, "onCreate: out");
     }
 
+    Drawable textViewGreenBackground = getDrawable(R.drawable.green_blue_gradient_rounded_text_view);
+
     private void loadCompletedEditTexts(int numberOfPlayers, LinearLayout layout, ArrayList<EditText> editTextArrayList, ArrayList<String> stringArrayList) { // number of players = 2  // editTextArrayList = 0
 
         for (int i = 1; i <= numberOfPlayers; i++) {
             EditText editText = new EditText(EnterPlayersActivity.this);
-            editText.setBackgroundColor(Color.parseColor("#22566b"));
-            editText.setTextColor(Color.parseColor("#ffffff"));
+            editText.setBackground(textViewGreenBackground);
+            editText.setTextColor(Color.parseColor(String.valueOf(R.color.blueSaphire)));
             editText.setText(stringArrayList.get(i));
             layout.addView(editText);
             editTextArrayList.add(editText);

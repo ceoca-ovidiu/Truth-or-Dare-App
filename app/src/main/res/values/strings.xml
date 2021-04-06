@@ -15,4 +15,11 @@
     <string name="done">DONE</string>
     <string name="back">BACK</string>
     <string name="how_many_players">How many players ?</string>
+    <string name="home">HOME</string>
+    <string name="end_game">END GAME</string>
+    <string name="difficulty_hard">HARD</string>
+    <string name="difficulty_medium">MEDIUM</string>
+    <string name="difficulty_low">LOW</string>
+    <string name="give_up">GIVE UP ?</string>
+    <string name="yes">YES</string>
 </resources>

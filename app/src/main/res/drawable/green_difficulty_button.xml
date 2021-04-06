@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:ndroid="http://schemas.android.com/apk/res/android" ndroid:shape="rectangle">
+
+    <stroke ndroid:color="@color/blueSaphire" ndroid:width="@dimen/stroke_width_3dp"/>
+    <corners ndroid:radius="20dp"/>
+    <solid ndroid:color="@color/white_75"/>
+</shape>
